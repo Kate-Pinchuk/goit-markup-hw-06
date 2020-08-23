@@ -549,7 +549,7 @@ html {
   padding-right: 39px;
   color: var(--title-text-color);
 }
-.form-call-to-action {
+.form-call {
   display: block;
   margin-bottom: 12px;
   margin-top: 40px;
@@ -630,7 +630,7 @@ html {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.input-checkbox {
+.checkbox-input {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -640,7 +640,7 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.input-checkbox:checked + .checkbox-icon {
+.checkbox-input:checked + .checkbox-icon {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
   background-image: url("../img/icons/vector.svg");
